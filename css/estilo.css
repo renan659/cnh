@@ -1,0 +1,312 @@
+html, body{
+    height: 100%;
+}
+
+.fundao{
+    background: #000;
+}
+
+/* HEADER */
+
+.sobre-header
+{background-color:#000;
+color:#FFF;}
+
+.sobre-header a
+{color:#FFF;}
+
+/*-------------------------menu----------------------------*/
+
+.navbar{
+margin-bottom:0px;}
+.navbar-default .navbar-nav>li>a {
+font-size:19px;
+font-family:"Century Gothic";
+color:#FFF;
+ }
+
+ .navbar-default .navbar-nav>li>a:hover {
+font-size:19px;
+font-family:"Century Gothic";
+color:#000;
+ }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default {
+   background-color: transparent;
+    border-color: transparent;
+}
+
+
+/*------------ MAIN ----------*/
+.text-normal{
+    font-weight: normal;
+}
+
+.border-relax
+{border-radius:30px;
+border:3px solid #000;}
+
+.cry-out>figure>img
+{width:100px;}
+
+.cry-out>figure>figcaption
+{color:#A54686;
+font-family:"Futura Md BT";
+font-size:15px;}
+
+.bg-titulo
+{background:url(../images/saiba.html);
+background-size:100% auto;
+background-position:center center;}
+
+.bg-titulo h1 strong
+{color:#FFF;
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);}
+
+.bg-titulo h2 strong
+{color:#FFF;
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);}
+
+.bg-light
+{border:1px solid #DDDDDD;}
+
+.bg-light:hover
+{outline:2px solid #FFCF2F;}
+
+.bg-body
+{background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 67%, rgba(244,244,244,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 67%,rgba(244,244,244,1) 98%); /* Chrome10-25,Safari5.1-6 */}
+
+
+
+.form-main{
+background-color:transparent;
+}
+
+.img-padrao{
+    max-height:20px; 
+    margin-left: 5px;
+}
+
+.form-main h3{
+font-size:20px;
+font-famil:"Century Gothic";
+color:#1D608B;
+}
+
+.form-main input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 25px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-main textarea{
+border-radius:0px;
+}
+
+.form-main button{
+padding: 4px 35px;
+background-color:#F4853B;
+border-radius:7px;
+font-family:'Century Gothic';
+}
+
+
+.form-main textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter input
+{    margin-top: 10px;
+    margin-bottom: 10px;}
+
+.newsletter h2
+{font-family:'Bodoni Bk BT';
+font-size:24px;
+color:#FFF;}
+
+.newsletter h2 span
+{
+color:#FFF100;}
+
+.newsletter p
+{font-family:'Arial';
+font-size:16px;
+color:#FFF100;}
+
+.newsletter a{
+    font-size:18px;
+    color: #fff;
+}
+
+.newsletter button{
+padding: 4px 35px;
+background-color:#F4853B;
+border-radius:7px;
+font-family:'Century Gothic';
+}
+
+.barra-newsletter h2
+{font-size:20px;
+font-family:"Century Gothic"}
+
+.barra-newsletter h3
+{font-size:20px;
+font-family:"Century Gothic"
+font-weight:700;}
+
+.width20
+{width:20%;
+position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	float: left;}
+
+@media (max-width:768px)
+{
+
+.width20
+{width:100%;
+position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	float: left;}
+}
+
+.extremus h2
+{font-family:'Javanese Text';
+color:#000;
+
+}
+
+.extremus p
+{line-height:2;
+font-family:'Century Gothic';
+color:#FFF;}
+
+.extremus hr
+{color:#16598E;
+border:0px solid #FFF;
+background: -moz-linear-gradient(45deg, rgba(255,255,255,0.5) 0%, rgba(22,89,142,1) 50%, rgba(255,255,255,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.5) 0%,rgba(22,89,142,1) 50%,rgba(255,255,255,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(255,255,255,0.5) 0%,rgba(22,89,142,1) 50%,rgba(255,255,255,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+padding-top: 3px;}
+
+
+.chaos p
+{font-family: 'Roboto', sans-serif;
+font-size:17px;
+color:#FFFFFF;
+margin-top:30px;
+margin-bottom:40px;}
+
+
+/*----------foooter------------*/
+
+.bg-mapa
+{background: rgb(255,0,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,0,255,1) 1%, rgba(165,70,134,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,0,255,1) 1%,rgba(165,70,134,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,0,255,1) 1%,rgba(165,70,134,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */}
+
+footer
+{color:#FFF;
+background-color:#A54686;
+}
+
+.footer-links{
+    margin-top: 20px;
+}
+
+
+
+
+footer h2
+{color:#FFF;
+font-size:17px;}
+
+footer h3
+{font-family:'Century Gothic';
+font-size:20px;}
+
+
+footer a
+{color:#FFF;
+font-family:'Century Gothic';
+margin-right:20px;}
+
+
+/*--------outros------------*/
+.img-shadow
+{-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);}
+
+.img-center
+{margin:0 auto;}
+
+.br-5
+{padding-top:5px;}
+
+.br-10
+{padding-top:10px;}
+
+.br
+{padding-top:20px;}
+
+.br-30
+{padding-top:30px;}
+
+.br-40
+{padding-top:40px;}
+
+.br-bottom-5
+{padding-bottom:5px;}
+
+.br-bottom-10
+{padding-bottom:10px;}
+
+.br-bottom
+{padding-bottom:20px;}
+
+.shadow-site{
+  -webkit-box-shadow: -7px 7px 11px 0px rgba(50, 50, 50, 0.54);
+-moz-box-shadow:    -7px 7px 11px 0px rgba(50, 50, 50, 0.54);
+box-shadow:         -7px 7px 11px 0px rgba(50, 50, 50, 0.54);
+}
